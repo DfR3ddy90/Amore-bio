@@ -27,7 +27,7 @@ body {
     -khtml-border-radius: 16px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border: #dc143c solid 1px;
+    border: hsl(74, 100%, 50%) solid 1px;
 }
 .buttons {
     min-width: 300px;
@@ -45,7 +45,7 @@ a.link {
     padding: 8px 20px; 
     margin: 4px;
     background: var(--back-color);
-    color: #fff;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 8px; 
     -webkit-border-radius: 8px;
@@ -69,7 +69,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: #dc143c solid 2px;
+    border: #c7f50f solid 2px;
 }
 
 .upperinfo {
@@ -81,7 +81,7 @@ a.link {
 a.link:hover,
 button:hover {
     background: #fff6;
-    color: #dc143c;
+    color: #b7dc14;
 }
 
 button:active, button:focus {
