@@ -1,4 +1,7 @@
 /* main page styles */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+
 body {
     width: 100%;
     min-height: 100%;
@@ -6,8 +9,7 @@ body {
     background: url(../../files/background.gif) center;
     background-size: cover;
     display: flex;
-    font-family: 'Product Sans';
-    font: 'Product Sans';
+    font-family: Hubballi;
 }
 .center {
     justify-content: center;
@@ -27,7 +29,7 @@ body {
     -khtml-border-radius: 16px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border: hsl(74, 100%, 50%) solid 1px;
+    border: hsl(47, 100%, 50%) solid 1px;
 }
 .buttons {
     min-width: 300px;
@@ -69,7 +71,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: #c7f50f solid 2px;
+    border: hsl(47, 100%, 50%) solid 1px;
 }
 
 .upperinfo {
@@ -148,7 +150,7 @@ h2 {
     -moz-border-radius: 14px;
     -ms-border-radius: 14px;
     border-radius: 14px;
-    font: 'Product Sans';
+    font: 'ultra-condensed';
     -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
     -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
     -ms-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
